@@ -1,0 +1,1 @@
+A personal portfolio website built with HTML and CSS showcasing my projects, skills, and journey as an entry-level web developer. Includes links to GitHub repositories, a personal testimony, and a contact section.
