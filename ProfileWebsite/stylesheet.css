@@ -1,89 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* ===== Body Styling ===== */
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f6f8;
-    color: #333;
-    padding: 20px;
-  }
-  
-  /* ===== Header Styling ===== */
-  header {
-    background-color: #0a192f; /* Deep navy for a professional tech look */
-    color: white;
-    padding: 30px 20px;
-    border-radius: 8px;
-  }
-  
-  /* === Profile Header Section with Oval Image & Inline Text === */
-  .profile-header {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: left;
-  }
-  
-  .profile-pic {
-    width: 140px;
-    height: 180px;
-    border-radius: 50% / 40%; /* Oval shape */
-    object-fit: cover;
-    border: 4px solid #64ffda; /* Aqua accent border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .profile-header h1 {
-    margin-bottom: 5px;
-    font-size: 1.8rem;
-  }
-  
-  .profile-header p {
-    margin-top: 0;
-    color: #ccd6f6;
-    font-size: 1rem;
-  }
-  
-  /* ===== Navigation Tabs ===== */
-  .nav-tabs ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 20px;
-  }
-  
-  .nav-tabs ul li a {
-    text-decoration: none;
-    color: #64ffda;
-    background-color: #112240;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background 0.3s;
-  }
-  
-  .nav-tabs ul li a:hover {
-    background-color: #233554;
-  }
-  
-  /* ===== Main Content Styling ===== */
-  main {
-    margin-top: 30px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  section {
-    margin-bottom: 40px;
-    background-color: white;
-    padding: 25px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Body Styling ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* ===== Header Styling ===== */
+header {
+  background-color: #0a192f;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+}
+
+/* === Profile Header Section === */
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 180px;
+  border-radius: 50% / 40%;
+  object-fit: cover;
+  border: 4px solid #64ffda;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header h1 {
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+.profile-header p {
+  margin-top: 0;
+  color: #ccd6f6;
+  font-size: 1rem;
+}
+
+/* ===== Navigation Tabs ===== */
+.nav-tabs ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.nav-tabs ul li a {
+  text-decoration: none;
+  color: #64ffda;
+  background-color: #112240;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.nav-tabs ul li a:hover {
+  background-color: #233554;
+}
+
+/* ===== Main Content Styling ===== */
+main {
+  margin-top: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== Section Boxes ===== */
+section {
+  margin-bottom: 40px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #0a192f;
+  border-bottom: 2px solid #64ffda;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #666;
+}
